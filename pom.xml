@@ -57,7 +57,7 @@
  <scm>
     <connection>scm:git:https://github.com/anudeep646/helloworld.git</connection>
     <developerConnection>scm:git:https://github.com/anudeep646/helloworld.git</developerConnection>
- 
+	<url>scm:https://github.com/anudeep646/helloworld.git</url>
  </scm>	 
 			  
 </project>
