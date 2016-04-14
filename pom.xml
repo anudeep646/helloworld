@@ -21,6 +21,11 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+	<dependency>
+            <groupId>org.apache.maven.scm</groupId>
+            <artifactId>maven-scm-provider-gitexe</artifactId>
+            <version>1.9</version>
+       </dependency>
   </dependencies>
   <distributionManagement>
 		<repository>
@@ -40,6 +45,9 @@
         <version>2.5.3</version>
         <configuration>
           <tagBase>https://svn.mycompany.com/repos/myapplication/releases</tagBase>
+		  <tagbase>
+					git:https://github.com/preetham31/ass1.git
+		</tagbase>
         </configuration>
       </plugin>
     </plugins>
