@@ -46,7 +46,7 @@
         <configuration>
           <tagBase>https://svn.mycompany.com/repos/myapplication/releases</tagBase>
 		  <tagbase>
-					git:https://github.com/preetham31/ass1.git
+				git:https://github.com/anudeep646/helloworld.git	
 		</tagbase>
         </configuration>
       </plugin>
